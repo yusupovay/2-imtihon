@@ -1,0 +1,36 @@
+.card {
+    margin-left: 150px;
+    margin-top: 145px;
+    margin-bottom: 150px;
+     
+     &__item{
+        @extend %main-flex; 
+        gap: 30px;
+
+     }
+ &__list {
+    text-align: center;
+    width: 350px;
+    height: 141px;
+    padding: 5px;
+}
+&__h6 {
+@extend %main-font2;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+letter-spacing: -0.138462px;
+color: #36536B;
+margin-top: 32px;
+margin-bottom: 16px;
+}
+&__p {
+    width: 350px;
+    @extend %main-font1;
+    text-align: center;
+    letter-spacing: -0.115385px;    
+    color: #36536B;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+}

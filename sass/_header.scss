@@ -1,0 +1,47 @@
+.header {
+    margin-top: 40px;
+    padding: 10px;
+ &__soya{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+  }
+&__list {
+    @extend %main-flex;
+}
+&__nav {
+    @extend %main-flex;
+    gap: 70px;
+}
+&__link {
+    @extend %main-font2;
+    color: #36536B;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+&__link:hover{
+    color: dimgray;
+}
+&__link:active{
+    color: black;
+}
+&__btn {
+    width: 173px;
+    height: 48px;
+    @extend %main-font2;
+    @extend %main-color;
+    background-color: #BA4270;
+    padding: 14px 25px 16px 27px;
+    letter-spacing: -0.115385px;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+}
+&__btn:hover{
+    color: #36536B;
+}
+&__btn:hover{
+    color: black;
+}
+}
+

@@ -1,0 +1,16 @@
+.easiy {
+    margin-left: 150px;
+    margin-top: 100px;
+    @extend %main-flex;
+    &__list{
+        width: 445px;
+        height: 136px; 
+    padding: 10px;   }
+    &__img {
+        @extend %main-flex;
+        gap: 10px;
+}
+}
+.a{
+    margin-bottom: 30px;
+}

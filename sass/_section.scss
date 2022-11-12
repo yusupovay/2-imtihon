@@ -1,0 +1,36 @@
+.siction { 
+    margin-top: 100px;
+    margin-left: 150px;
+    @extend %main-flex;
+    gap: 100px;
+&__list {
+    width: 445px;
+    height: 284px;
+   
+}
+&__img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+&__item1 {
+     width: 445px;
+    height: 80x;
+    background: #2E3F4D;
+border-radius: 8px 8px 0px 0px;
+}
+&__item2 {
+     width: 445px;
+    height: 244px;
+    padding: 32px;
+     background: #1B262F;
+box-shadow: 25px 25px 80px rgba(54, 83, 107, 0.300727);
+border-radius: 8px;
+}
+&__p{
+    width: 381px;
+    height: 180px;
+    @extend %main-font4;
+    color: #FBFCFE;
+}
+
+}

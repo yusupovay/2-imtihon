@@ -1,0 +1,16 @@
+.simple {
+    margin-top: 96px;
+    &__list{
+     @extend %main-flex; 
+     padding-left: 110px; 
+    }
+    &__h2 {
+        width: 4450x;
+        @extend %main-font3;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.369231px;
+        color: #36536B;
+
+}
+}
